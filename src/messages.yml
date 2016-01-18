@@ -1,0 +1,52 @@
+Main:
+  Tag: "&8[&6*&8] &7"
+  NoPerms: "Nie masz uprawnien do tej komendy"
+  NoComPerms: "Nie masz uprawnien do zadniej komendy"
+  badarg: "Argument %ARG% nie jest odpowiedni"
+  loargs: "Za duzo argumentow."
+  nopl: "Gracz %PLAYER% nie jest na serwerze."
+  noloc: "Nie ustawiono lokalizacji"
+  check: "Nie mozesz wykonac tej operacji."
+  quitBan: "Cheaty/opusciles gre."
+  admquit: ""
+  
+SubCommands:
+  check:
+    desc: "Teleportuje gracza do pokoju."
+    chmess: "Jestes sprawdzany przez administratora\nWejdz na naszego TS\nTEST"
+    admmess: "Gracz %PLAYER% zostal przeteleportowany"
+    plcheck: "Gracz %PLAYER% jest juz sprawdzany."
+  clear:
+    desc: "Uznaje gracza za czystego"
+    plcl: "Zostales uznany za gracza bez chetow."
+    amcl: "Uznales gracza %PLAYER% za czystego."
+    plcheck: "Gracz %PLAYER% nie jest sprawdzany przez ciebie."
+    nocheck: "Gracz %PLAYER% nie jest sprawdzany"
+  permban:
+    desc: "Uznaj gracza za winnego."
+    ampb: "Zbanowales gracza %PLAYER%"
+    plcheck: "Gracz %PLAYER% nie jest sprawdzany przez ciebie."
+    nocheck: "Gracz %PLAYER% nie jest sprawdzany"
+  tempban:
+    desc: "Uznaj gracza za winnego."
+    ampb: "Zbanowales gracza %PLAYER%"
+    plcheck: "Gracz %PLAYER% nie jest sprawdzany przez ciebie."
+    nocheck: "Gracz %PLAYER% nie jest sprawdzany"
+    amnb: "&cGracz %PLAYER% nie zostal poprawnie zbanowany!"
+    time: "Nie podales czasu"
+  wspban:
+    desc: "Uznaj gracza za winnego."
+    ampb: "Zbanowales gracza %PLAYER%"
+    plcheck: "Gracz %PLAYER% nie jest sprawdzany przez ciebie."
+    nocheck: "Gracz %PLAYER% nie jest sprawdzany"
+    amnb: "&cGracz %PLAYER% nie zostal poprawnie zbanowany!"
+    time: "Nie podales czasu"
+  loc:
+    setdesc: "Ustawia koordynaty pokoju"
+    getdesc: "Teleportuje do pokoju"
+    setroom: "Ustawiono pokoj do teleportacji"
+    tp: "Przeteleportowano"
+    pltp: "Zostales przeteleportowany przez %ADM%"
+    adtp: "Przeteleportowales gracza %PLAYER%"
+#  set:
+#  get:
